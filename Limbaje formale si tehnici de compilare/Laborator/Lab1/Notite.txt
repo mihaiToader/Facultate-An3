@@ -1,0 +1,22 @@
+BNF:
+
+//Daca e <> semnatura a BNF-ului
+
+<program> ::= "pisica" <declist> "caine"
+<declist> ::= "hello" <s> " ~ " | <declist>
+<s> ::= "a" | "b"
+
+
+Ex de program dupa legile de mai sus:    
+
+pisica  
+	hello a  
+	hello b  
+caine   
+
+constanta	0  
+variabila	1  
+pisic		2  
+caine		3  
+hello		4  
+~			5
