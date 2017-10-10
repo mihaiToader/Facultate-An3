@@ -19,4 +19,4 @@ variabila	1
 pisic		2  
 caine		3  
 hello		4  
-~			5
+~		5
