@@ -17,4 +17,6 @@ public interface MatrixController {
     String loadMatrixFromDirectory(String directory) throws IOException;
 
     void sumMatrix(int nrThreads, String nameMatrix1, String nameMatrix2, String fileNameOut) throws Exception;
+
+    Matrix readMatrixFromFile(String inputFile) throws IOException, InvalidMatrixException;
 }

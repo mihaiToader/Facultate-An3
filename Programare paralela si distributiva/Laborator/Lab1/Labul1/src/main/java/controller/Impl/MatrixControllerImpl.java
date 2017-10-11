@@ -45,4 +45,9 @@ public class MatrixControllerImpl implements MatrixController {
     public void sumMatrix(int nrThreads, String nameMatrix1, String nameMatrix2, String fileNameOut) throws Exception {
         matrixService.sumMatrix(nrThreads, nameMatrix1, nameMatrix2, fileNameOut);
     }
+
+    @Override
+    public Matrix readMatrixFromFile(String inputFile) throws IOException, InvalidMatrixException {
+        return matrixService.readMatrixFromFile(inputFile);
+    }
 }

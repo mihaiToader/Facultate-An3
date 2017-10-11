@@ -89,5 +89,10 @@ public class MatrixServiceImpl implements MatrixService {
        matrixRepository.writeMatrixToFile(new Matrix(c), fileNameOut);
     }
 
+    @Override
+    public Matrix readMatrixFromFile(String inputFile) throws IOException, InvalidMatrixException {
+        return matrixRepository.readMatrixFromFile(inputFile);
+    }
+
 
 }

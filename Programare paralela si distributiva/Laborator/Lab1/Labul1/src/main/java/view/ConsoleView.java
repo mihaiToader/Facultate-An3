@@ -53,9 +53,40 @@ public class ConsoleView {
                 controller.getAllMatrix().forEach(x -> System.out.println(x.getName()));
             } else if (cmd.contains("sum")) {
                 sumMatrix(cmd);
-            } else {
+            } else if (cmd.contains("find -matrix_in")) {
+                findMatrixIn(cmd);
+            } else if (cmd.contains("find -matrix_out")) {
+                findMatrixOut(cmd);
+            }
+            else {
                 System.out.println("I don't know what you want! Try help for help");
             }
+        }
+    }
+
+    private void findMatrixOut(String cmd) {
+        String[] commands = cmd. split(" ");
+        try {
+            Matrix matr = controller.readMatrixFromFile(getFullPathNameOutFile(commands[3]));
+            System.out.println(matr.getName());
+            System.out.println(matr);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InvalidMatrixException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void findMatrixIn(String cmd) {
+        String[] commands = cmd. split(" ");
+        try {
+            Matrix matr = controller.readMatrixFromFile(getFullPathNameInFile(commands[3]));
+            System.out.println(matr.getName());
+            System.out.println(matr);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InvalidMatrixException e) {
+            e.printStackTrace();
         }
     }
 
@@ -63,7 +94,13 @@ public class ConsoleView {
         String[] commands = cmd.split(" ");
         try {
             controller.sumMatrix(Integer.parseInt(commands[1]), commands[2], commands[3], getFullPathNameOutFile(commands[4]));
+            if (cmd.contains("-print")){
+                Matrix matr = controller.readMatrixFromFile(getFullPathNameOutFile(commands[4]));
+                System.out.println(matr.getName());
+                System.out.println(matr);
+            }
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("[ERROR] " + Arrays.toString(e.getStackTrace()));
         }
     }
