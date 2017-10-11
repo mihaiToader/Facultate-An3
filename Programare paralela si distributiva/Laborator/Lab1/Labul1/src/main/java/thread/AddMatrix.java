@@ -8,9 +8,9 @@ public class AddMatrix implements Runnable {
     private int start;
     private int end;
     private int n, m;
-    private int[][] a,b,c;
+    private Integer[][] a,b,c;
 
-    public AddMatrix(int start, int end, int n, int m, int[][] a, int[][] b, int[][] c) {
+    public AddMatrix(int start, int end, int n, int m, Integer[][] a, Integer[][] b, Integer[][] c) {
         this.start = start;
         this.end = end;
         this.n = n;

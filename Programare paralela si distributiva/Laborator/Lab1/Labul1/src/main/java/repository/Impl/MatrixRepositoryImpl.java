@@ -37,7 +37,7 @@ public class MatrixRepositoryImpl implements MatrixRepository {
                                 return res;
                             })
                             .collect(Collectors.toList()));
-            matrix.setName(FilenameUtils.getName(inputFile));
+            matrix.setName(FilenameUtils.getBaseName(inputFile));
             return matrix;
         }
     }
@@ -52,6 +52,7 @@ public class MatrixRepositoryImpl implements MatrixRepository {
     }
 
     public String loadMatrixFromDirectory(String directory) throws IOException {
+        allMatrix.clear();
         String errors = "";
         final File folder = new File(directory);
         if (folder.listFiles() == null) {
@@ -66,6 +67,13 @@ public class MatrixRepositoryImpl implements MatrixRepository {
             }
         }
         return errors;
+    }
+
+    public Matrix findByName(String name) throws Exception {
+        return allMatrix.stream()
+                .filter(x -> x.getName().equals(name))
+                .findFirst()
+                .orElseThrow(() -> new Exception("Matrix not found!"));
     }
 
     public List<Matrix> getAllMatrix() {

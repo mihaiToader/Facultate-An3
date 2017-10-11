@@ -5,17 +5,17 @@ import thread.AddMatrix;
  */
 public class TestMain {
     public static void main(String[] args) throws InterruptedException {
-        int a[][] = {
+        Integer a[][] = {
                 {1,2,3,4},
                 {1,2,3,4},
                 {2,1,3,2}
         };
-        int b[][] = {
+        Integer b[][] = {
                 {0,2,3,4},
                 {0,2,3,4},
                 {2,0,3,2}
         };
-        int c[][] = new int[100][100];
+        Integer c[][] = new Integer[100][100];
 
         int p  = 5;
         Thread threads[] = new Thread[p];

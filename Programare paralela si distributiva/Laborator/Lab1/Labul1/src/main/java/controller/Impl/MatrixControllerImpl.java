@@ -40,4 +40,9 @@ public class MatrixControllerImpl implements MatrixController {
     public String loadMatrixFromDirectory(String directory) throws IOException {
         return matrixService.loadMatrixFromDirectory(directory);
     }
+
+    @Override
+    public void sumMatrix(int nrThreads, String nameMatrix1, String nameMatrix2, String fileNameOut) throws Exception {
+        matrixService.sumMatrix(nrThreads, nameMatrix1, nameMatrix2, fileNameOut);
+    }
 }

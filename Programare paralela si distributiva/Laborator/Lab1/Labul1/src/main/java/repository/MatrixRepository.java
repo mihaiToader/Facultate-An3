@@ -18,4 +18,5 @@ public interface MatrixRepository {
 
     String loadMatrixFromDirectory(String directory) throws IOException;
 
+    Matrix findByName(String name) throws Exception;
 }

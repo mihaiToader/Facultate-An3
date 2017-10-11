@@ -15,4 +15,6 @@ public interface MatrixService {
     List<Matrix> getAllMatrix();
 
     String loadMatrixFromDirectory(String directory) throws IOException;
+
+    void sumMatrix(int nrThreads, String nameMatrix1, String nameMatrix2, String fileNameOut) throws Exception;
 }
