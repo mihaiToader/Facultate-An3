@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by toade on 10/4/2017.
  */
-public class AddMatrix implements ThreadMatrix {
+public class MultiplyMatrix implements ThreadMatrix {
 
     private int start;
     private int end;
@@ -15,7 +15,7 @@ public class AddMatrix implements ThreadMatrix {
     private List<String> operations = new ArrayList<>();
     private String threadId;
 
-    public AddMatrix(int start, int end, int n, int m, Integer[][] a, Integer[][] b, Integer[][] c) {
+    public MultiplyMatrix(int start, int end, int n, int m, Integer[][] a, Integer[][] b, Integer[][] c) {
         this.start = start;
         this.end = end;
         this.n = n;
@@ -25,7 +25,7 @@ public class AddMatrix implements ThreadMatrix {
         this.c = c;
     }
 
-    public AddMatrix(int start, int end, int n, int m, Integer[][] a, Integer[][] b, Integer[][] c, String threadId) {
+    public MultiplyMatrix(int start, int end, int n, int m, Integer[][] a, Integer[][] b, Integer[][] c, String threadId) {
         this.start = start;
         this.end = end;
         this.n = n;
@@ -46,11 +46,10 @@ public class AddMatrix implements ThreadMatrix {
                 j = 0;
                 i++;
             }
-            if (i>=n) {
-                System.out.println("Something went wrong!");
-                return;
+            c[i][j] = 0;
+            for (int w = 0; w < n; w++) {
+                c[i][j] += a[i][w] * b[w][j];
             }
-            c[i][j] = a[i][j] + b[i][j];
             j++;
         }
     }

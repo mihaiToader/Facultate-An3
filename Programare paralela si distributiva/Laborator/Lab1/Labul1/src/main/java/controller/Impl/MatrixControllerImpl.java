@@ -50,4 +50,19 @@ public class MatrixControllerImpl implements MatrixController {
     public Matrix readMatrixFromFile(String inputFile) throws IOException, InvalidMatrixException {
         return matrixService.readMatrixFromFile(inputFile);
     }
+
+    @Override
+    public String loadMatrix(String directory, String matrix) throws IOException {
+        return matrixService.loadMatrix(directory,matrix);
+    }
+
+    @Override
+    public void multiplyMatrix(int nrThreads, String nameMatrix1, String nameMatrix2, String fileNameOut) throws Exception {
+        matrixService.multiplyMatrix(nrThreads, nameMatrix1, nameMatrix2, fileNameOut);
+    }
+
+    @Override
+    public void clearMatrixes() {
+        matrixService.clearMatrix();
+    }
 }

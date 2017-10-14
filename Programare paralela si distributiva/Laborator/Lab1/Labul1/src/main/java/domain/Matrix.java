@@ -107,4 +107,28 @@ public class Matrix {
         }
         return res;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        Matrix matr = (Matrix) o;
+        if (numberOfColumns != matr.getNumberOfColumns() || numberOfLines != matr.getNumberOfLines()) {
+            return false;
+        }
+        for (int i = 0; i < numberOfLines; i++) {
+            for (int j = 0; j < numberOfColumns; j++) {
+                if (getElement(i,j) != matr.getElement(i,j)) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = numberOfLines != null ? numberOfLines.hashCode() : 0;
+        result = 31 * result + (numberOfColumns != null ? numberOfColumns.hashCode() : 0);
+        result = 31 * result + (content != null ? content.hashCode() : 0);
+        return result;
+    }
 }

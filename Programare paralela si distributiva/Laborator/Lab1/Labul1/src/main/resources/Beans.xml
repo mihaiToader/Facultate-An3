@@ -8,12 +8,16 @@
     <bean id = "matrixRepository" class="repository.Impl.MatrixRepositoryImpl">
     </bean>
 
+    <bean id = "threadResultRepository" class="repository.Impl.ThreadResultsRepositoryImpl">
+    </bean>
+
     <bean id = "randomService" class="service.Impl.ServiceRandomImpl">
     </bean>
 
     <bean id = "matrixService" class="service.Impl.MatrixServiceImpl">
         <constructor-arg index="0" ref="matrixRepository"/>
         <constructor-arg index="1" ref="randomService"/>
+        <constructor-arg index="2" ref="threadResultRepository"/>
     </bean>
 
     <bean id = "matrixController" class="controller.Impl.MatrixControllerImpl">

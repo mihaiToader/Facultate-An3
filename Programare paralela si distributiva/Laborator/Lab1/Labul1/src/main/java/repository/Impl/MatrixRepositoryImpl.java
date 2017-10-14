@@ -69,6 +69,31 @@ public class MatrixRepositoryImpl implements MatrixRepository {
         return errors;
     }
 
+    public String loadMatrix(String directory, String matrix) throws IOException {
+        String errors = "";
+        final File folder = new File(directory);
+        if (folder.listFiles() == null) {
+            errors += "No matrix found!";
+        } else {
+            for (final File fileEntry : folder.listFiles()) {
+                if (FilenameUtils.getBaseName(fileEntry.toString()).equals(matrix)) {
+                    try {
+                        allMatrix.add(readMatrixFromFile(fileEntry.toString()));
+                    } catch (InvalidMatrixException e) {
+                        e.printStackTrace();
+                    }
+                    break;
+                }
+            }
+        }
+        return errors;
+    }
+
+    @Override
+    public void clear() {
+        allMatrix.clear();
+    }
+
     public Matrix findByName(String name) throws Exception {
         return allMatrix.stream()
                 .filter(x -> x.getName().equals(name))
