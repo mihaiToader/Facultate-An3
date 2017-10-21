@@ -120,7 +120,9 @@ public class ThreadResults {
         res += hal.getProcessor().toString() + "\n";
         res += "Memory: " +
                 FormatUtil.formatBytes(hal.getMemory().getAvailable()) + "/" +
-                FormatUtil.formatBytes(hal.getMemory().getTotal()) + "/n";
+                FormatUtil.formatBytes(hal.getMemory().getTotal()) + "\n";
+        res += "\nPhysical processors:" + hal.getProcessor().getPhysicalProcessorCount() + "\n";
+        res += "Logical processors:" + hal.getProcessor().getLogicalProcessorCount() + "\n";
         return res;
     }
 
@@ -156,9 +158,9 @@ public class ThreadResults {
         }
         threadResults += "------------------------------------------------------------------------------\n";
         threadResults += "\n\n";
-        threadResults += "First matrix:\n" + firstMatrix.getName() + "\n";
-        threadResults += "Second matrix:\n" + secondMatrix.getName() + "\n";
-        threadResults += "The out matrix:\n" + outMatrix.getName() + "\n";
+        threadResults += "First matrix:\n" + firstMatrix.getName() + " " + firstMatrix.getNumberOfLines() + "X" + firstMatrix.getNumberOfColumns() + "\n";
+        threadResults += "Second matrix:\n" + secondMatrix.getName() + " " +  secondMatrix.getNumberOfLines() + "X" + secondMatrix.getNumberOfColumns() +"\n";
+        threadResults += "The out matrix:\n" + outMatrix.getName() + " " +  outMatrix.getNumberOfLines() + "X" + outMatrix.getNumberOfColumns() +"\n";
 
         threadResults += "\n\nCopyright Toader Mihai 2017";
         return threadResults;

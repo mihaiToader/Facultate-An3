@@ -1,0 +1,7 @@
+regex101.com
+
+Lexic:
+	identificator:
+		regula <=> expr_regulara
+	const:
+		 

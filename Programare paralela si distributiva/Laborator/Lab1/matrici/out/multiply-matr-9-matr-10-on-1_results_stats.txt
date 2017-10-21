@@ -1,0 +1,33 @@
+Results:
+-> operation = Multiply matrix!
+-> threadNumber = 1
+-> startTime = 2017-10-18T15:51:44.732
+-> finishTime = 2017-10-18T15:57:28.947
+-> executionTimeInSeconds = 344
+-> executionTimeInNano = 617616320
+
+
+System information:
+Microsoft Windows 10 build 15063
+Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz
+Memory: 535.6 MiB/3.9 GiB
+
+Physical processors:2
+Logical processors:4
+
+
+------------------------------------------------------------------------------
+-> threadName: Thread 0
+1. Number of operations: 4000000
+------------------------------------------------------------------------------
+
+
+First matrix:
+matr-9 2000X2000
+Second matrix:
+matr-10 2000X2000
+The out matrix:
+multiply-matr-9-matr-10-on-1 2000X2000
+
+
+Copyright Toader Mihai 2017

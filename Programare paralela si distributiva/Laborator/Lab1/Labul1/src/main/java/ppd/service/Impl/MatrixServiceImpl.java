@@ -71,7 +71,7 @@ public class MatrixServiceImpl implements MatrixService {
         Matrix matrix2 = matrixRepository.findByName(nameMatrix2);
         Integer[][] b = matrix2.toMatrixArray();
         if (a.length != b.length || a[0].length != b[0].length) {
-            throw new Exception("Matrix have to have the same dimensions!");
+            throw new Exception("Matrix has to have the same dimensions!");
         }
         Integer[][] c = new Integer[a.length][a[0].length];
         Thread threads[] = new Thread[nrThreads];

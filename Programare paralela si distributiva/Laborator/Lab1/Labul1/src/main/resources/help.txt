@@ -34,7 +34,7 @@ Help:
         clear
             Sterge matricile incarcate in memorie
 
-        run ppd.tests
+        run tests
             Se ruleaza testele.
 
         help

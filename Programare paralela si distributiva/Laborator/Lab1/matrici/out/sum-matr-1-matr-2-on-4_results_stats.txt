@@ -1,0 +1,42 @@
+Results:
+-> operation = Add matrix!
+-> threadNumber = 4
+-> startTime = 2017-10-18T15:39:22.448
+-> finishTime = 2017-10-18T15:39:22.448
+-> executionTimeInSeconds = 0
+-> executionTimeInNano = 0
+
+
+System information:
+Microsoft Windows 10 build 15063
+Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz
+Memory: 933.3 MiB/3.9 GiB
+
+Physical processors:2
+Logical processors:4
+
+
+------------------------------------------------------------------------------
+-> threadName: Thread 0
+1. Number of operations: 2500
+------------------------------------------------------------------------------
+-> threadName: Thread 1
+1. Number of operations: 2500
+------------------------------------------------------------------------------
+-> threadName: Thread 2
+1. Number of operations: 2500
+------------------------------------------------------------------------------
+-> threadName: Thread 3
+1. Number of operations: 2500
+------------------------------------------------------------------------------
+
+
+First matrix:
+matr-1 100X100
+Second matrix:
+matr-2 100X100
+The out matrix:
+sum-matr-1-matr-2-on-4 100X100
+
+
+Copyright Toader Mihai 2017

@@ -73,7 +73,7 @@ public class ConsoleView {
             findMatrixOut(cmd);
         } else if (cmd.contains("clear")) {
             controller.clearMatrixes();
-        } else if (cmd.equals("run ppd.tests")) {
+        } else if (cmd.equals("run tests")) {
             tests.run();
         } else if (cmd.equals("help")) {
             printHelp();
