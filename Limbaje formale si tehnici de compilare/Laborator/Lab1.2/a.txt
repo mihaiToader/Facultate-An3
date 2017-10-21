@@ -1,0 +1,21 @@
+HI my_first_program !
+    DECLARATIONS
+        a: string;
+        c,d: int;
+    BYE DECLARATIONS
+    BODY
+        out <- @Hello World@;
+        in -> a;
+        if { a = @sum@ }
+            HI IF
+                in -> c;
+                d = c + 1;
+            BYE IF
+        else
+            HI IF
+                in -> c;
+                d = c - 1;
+            BYE IF
+        out <- c;
+    BYE BODY
+BYE my_first_program !
