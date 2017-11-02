@@ -1,0 +1,22 @@
+HI p1!
+    DECLARATIONS
+        nr,i :integer;
+        v :array of integer[100];
+    BYE DECLARATIONS
+    BODY
+        out <- @Hello World@;
+        in -> nr;
+        i = 0;
+        while_loop { i < nr }
+            HY while_loop
+                out <- @Dati v de @ + i
+                in -> v[i]
+            BYE while_loop
+        i = 0;
+        while_loop { i < nr }
+            HY while_loop
+                out <- @Elementul de pe pozitia @ + i + @este@
+                out <- v[i]
+            BYE while_loop
+    BYE BODY
+BYE p1!

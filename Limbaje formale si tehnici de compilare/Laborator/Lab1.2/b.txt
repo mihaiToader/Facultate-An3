@@ -154,8 +154,8 @@ Forma interna a programului:
 |    27    |   -    |
 |    16    |   -    |
 |    27    |   -    |
-|    44    |   -    |
-|    27    |   -    |
+|    30    |   -    |
+|    37    |   -    |
 |    0     |   2    |
 |    25    |   -    |
 |    28    |   -    |
@@ -317,6 +317,12 @@ Forma interna a programului:
 |    27    |   -    |
 |    11    |   -    |
 |    28    |   -    |
+|    27    |   -    |
+|    27    |   -    |
+|    27    |   -    |
+|    27    |   -    |
+|    0     |   1    |
+|    28    |   -    |
 |    9     |   -    |
 |    27    |   -    |
 |    12    |   -    |
@@ -324,4 +330,4 @@ Forma interna a programului:
 
 
 ERRORS:
--> my_first_program appear on lines [0, 20]
+-> my_first_program appear on lines [1, 22]

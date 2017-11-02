@@ -63,7 +63,15 @@ separators = {
     ";": 25,
     ",": 26,
     " ": 27,
-    "\n": 28
+    "\n": 28,
+    "+": 29,
+    "-": 30,
+    "*": 31,
+    "/": 32,
+    "<": 33,
+    "==": 35,
+    ">": 37,
+    "=": 39,
 }
 
 
@@ -130,8 +138,10 @@ def split_after_delimiter(delimiter, content):
     delimiter = "(" + delimiter + ")"
     rez = []
     for line in content:
-        rez += re.split(delimiter, line)
-
+        if line in codification:
+            rez += [line]
+        else:
+            rez += re.split(delimiter, line)
     return rez
 
 
@@ -140,15 +150,14 @@ def is_identifier(identifier):
 
 
 def is_constant(constant):
-    return re.match(r'^[-]?[0-9]*$|^[a-zA-Z]$|^@[0-9A-Za-z@]*@$', constant)
+    return re.match(r'^[-]?[0-9]*$|^0$|^[a-zA-Z]$|^@[0-9A-Za-z@]*@$', constant)
 
 
 def split_after_separators(content):
     content = [content]
     for key in separators:
-        if codification[key] != 0 and codification[key] != 1:
-            content = split_after_delimiter(key, content)
-            content = list(filter(None, content))
+        content = split_after_delimiter(key, content)
+        content = list(filter(None, content))
     return content
 
 

@@ -8,7 +8,7 @@ HI my_first_program!
         in -> a;
         if { a == @sum@ }
             HI if
-                in -> c;
+                in ->c;
                 d = c + 1;
             BYE if
         else
@@ -18,4 +18,5 @@ HI my_first_program!
             BYE if
         out <- c;
     BYE BODY
+    a
 BYE my_first_program!

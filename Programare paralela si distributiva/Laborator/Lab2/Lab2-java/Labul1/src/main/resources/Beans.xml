@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id = "matrixRepository" class="ppd.repository.Impl.MatrixRepositoryImpl">
+    </bean>
+
+    <bean id = "doubleMatrixRepository" class="ppd.repository.Impl.DoubleMatrixRepositoryImpl">
+    </bean>
+    <bean id = "complexMatrixRepository" class="ppd.repository.Impl.ComplexMatrixRepositoryImpl">
+    </bean>
+
+
+    <bean id = "threadResultRepository" class="ppd.repository.Impl.ThreadResultsRepositoryImpl">
+    </bean>
+
+    <bean id = "randomService" class="ppd.service.Impl.ServiceRandomImpl">
+    </bean>
+
+    <bean id = "matrixService" class="ppd.service.Impl.MatrixServiceImpl">
+        <constructor-arg index="0" ref="matrixRepository"/>
+        <constructor-arg index="1" ref="randomService"/>
+        <constructor-arg index="2" ref="threadResultRepository"/>
+        <constructor-arg index="3" ref="doubleMatrixRepository"/>
+        <constructor-arg index="4" ref="complexMatrixRepository"/>
+    </bean>
+
+    <bean id = "matrixController" class="ppd.controller.Impl.MatrixControllerImpl">
+        <constructor-arg index="0" ref="matrixService"/>
+    </bean>
+</beans>

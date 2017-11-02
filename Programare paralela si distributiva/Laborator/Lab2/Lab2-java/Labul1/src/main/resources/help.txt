@@ -1,0 +1,47 @@
+Help:
+    Commands:
+        generation <number of lines> <number of columns> <from> <to> <matrix name>
+            Genereaza o matrice cu numarul de lini si coloane specificat.
+            Matricea contine numere alese random din intervalul dat.
+            Si va fi locata intr-un fisier cu numele <matrix name> in
+            directorul a carui locatie este precizata in fisierul de config si cu
+            extensia data tot din acel fisier
+
+        load [matrix name] [-print]
+            Pentru a aduna matrici ele trebuie incarcate.
+            Comanda load incarca matricile in memorie.
+            Daca nu este specificat numele matricei, se vor
+            incarca toate din directorul data.
+            Comanda print afiseaza fiecare matrice.
+
+        print -all
+            Afiseaza toate matricile incarcate
+
+        print -name
+            Afiseaza doar numele si dimensiunea matricelor incarcate
+
+        sum <nr threads> <name matrix 1> <name matrix 2> <output filename>
+            Aduna cele doua matrici specificate pe numarul de threaduri dat
+            si salveaza rezultatul in fisierul de out specificat.
+
+        mul <nr threads> <name matrix 1> <name matrix 2> <output filename>
+            Inmulteste cele doua matrici specificate pe numarul de threaduri dat
+            si salveaza rezultatul in fisierul de out specificat.
+
+        find -matrix_in | -matrix_out <matrix name>
+            Afiseaza matrice de input sau output
+
+        clear
+            Sterge matricile incarcate in memorie
+
+        run tests
+            Se ruleaza testele.
+
+        help
+            The help page, oh yeah!
+
+        exit
+            Exit
+
+Copyright Mihai Toader 2017
+
