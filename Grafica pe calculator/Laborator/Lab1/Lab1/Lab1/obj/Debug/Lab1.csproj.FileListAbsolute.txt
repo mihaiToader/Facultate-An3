@@ -1,9 +1,0 @@
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\bin\Debug\Lab1.exe.config
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\bin\Debug\Lab1.exe
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\bin\Debug\Lab1.pdb
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\obj\Debug\Lab1.exe
-C:\Users\toade\Desktop\Facultate\Grafica pe calculator\Laborator\Lab1\Lab1\Lab1\obj\Debug\Lab1.pdb
