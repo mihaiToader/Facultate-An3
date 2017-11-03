@@ -1,6 +1,7 @@
 import sys
 import re
 from prettytable import PrettyTable
+from BST import BinarySearchTree
 
 codification = {
     "identifier": 0,
@@ -51,7 +52,7 @@ codification = {
     "<-": 45
 }
 
-separators = {
+separatorsAndOperators = {
     "!": 12,
     "{": 18,
     "}": 19,
@@ -69,32 +70,42 @@ separators = {
     "*": 31,
     "/": 32,
     "<": 33,
+    "<=": 34,
     "==": 35,
+    ">=": 36,
     ">": 37,
+    "!=": 38,
     "=": 39,
+    "->": 44,
+    "<-": 45
 }
+
+
+class TSRow:
+    def __init__(self, atom, position):
+        self.atom = atom
+        self.position = position
 
 
 class TS:
     def __init__(self):
-        self.table = {}
-
-    def exists(self, atom):
-        return atom in self.table
+        self.table = BinarySearchTree()
+        self.__lastNr = 0
 
     def add(self, atom):
-        if self.exists(atom):
-            return self.table[atom]
+        row = self.table.exists(TSRow(atom, -1), lambda x: x.atom)
+        if row is None:
+            self.table.add(TSRow(atom, self.get_next_position()), lambda x: x.atom)
+            return self.get_last_position()
         else:
-            poz = self.get_next_position()
-            self.table[atom] = poz
-            return poz
+            return row.position
+
+    def get_last_position(self):
+        return self.__lastNr
 
     def get_next_position(self):
-        if len(self.table) == 0:
-            return 1
-        else:
-            return sorted(self.table.values())[-1] + 1
+        self.__lastNr += 1
+        return self.__lastNr
 
 
 class ProgramTables:
@@ -115,16 +126,17 @@ class ProgramTables:
         file = open(output, "w")
         file.write("Tabela de simboluri:\n")
         t = PrettyTable(['Element', 'Cod Ts'])
-        for key in self.TS.table:
-            t.add_row([key, self.TS.table[key]])
+        for row in self.TS.table.get_inorder():
+            t.add_row([row.atom, row.position])
         file.write(str(t))
         file.write("\n\n\nForma interna a programului:\n")
         t = PrettyTable(['Cod atom', 'Cod Ts'])
         for pair in self.FIP:
-            if pair[1] == -1:
-                t.add_row([pair[0], '-'])
-            else:
-                t.add_row([pair[0], pair[1]])
+            if pair[0] != 27:
+                if pair[1] == -1:
+                    t.add_row([pair[0], '-'])
+                else:
+                    t.add_row([pair[0], pair[1]])
         file.write(str(t))
         if self.content_by_lines != "":
             file.write('\n\n\nERRORS:\n')
@@ -146,16 +158,16 @@ def split_after_delimiter(delimiter, content):
 
 
 def is_identifier(identifier):
-    return re.match(r'^[a-zA-Z][a-zA-Z0-9]{0,7}$', identifier)
+    return re.match(r'^[a-zA-Z][a-zA-Z0-9]{0,249}$', identifier)
 
 
 def is_constant(constant):
-    return re.match(r'^[-]?[0-9]*$|^0$|^[a-zA-Z]$|^@[0-9A-Za-z@]*@$', constant)
+    return re.match(r'^[-]?[1-9][0-9]*$|^0$|^[a-zA-Z]$|^@[0-9A-Za-z@]*@$', constant)
 
 
 def split_after_separators(content):
     content = [content]
-    for key in separators:
+    for key in separatorsAndOperators:
         content = split_after_delimiter(key, content)
         content = list(filter(None, content))
     return content
@@ -223,5 +235,6 @@ def main():
 
     tables.display(output_file)
 
+    print("File scanned, you can find the results in " + output_file)
 
 main()

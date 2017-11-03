@@ -1,22 +1,22 @@
-HI my_first_program!
+HI MyFirstProgram!
     DECLARATIONS
         a :string;
-        c, d :integer;
+        c,d:integer;
     BYE DECLARATIONS
     BODY
-        out <- @Hello World@;
-        in -> a;
-        if { a == @sum@ }
+        out<-@Hello World@;
+        in->a;
+        if{a==@sum@}
             HI if
-                in ->c;
-                d = c + 1;
+                in->c;
+                d=c+1;
             BYE if
         else
             HI if
-                in -> c;
-                d = c - 1;
+                in->c;
+                d=c-1;
             BYE if
-        out <- c;
+        out<-c;
     BYE BODY
     a
-BYE my_first_program!
+BYE MyFirstProgram!
