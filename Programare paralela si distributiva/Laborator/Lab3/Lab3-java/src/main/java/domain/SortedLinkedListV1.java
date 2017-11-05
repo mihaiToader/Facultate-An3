@@ -53,7 +53,7 @@ public class SortedLinkedListV1<T extends Comparable> implements Iterable<T>, Li
             first.lock.lock();
             first.setLeft(theNewNode);
             first = theNewNode;
-            first.lock.unlock();
+            first.getRight().lock.unlock();
         } else {
             Node<T> start = first;
             Node<T> prev = null;
@@ -81,32 +81,39 @@ public class SortedLinkedListV1<T extends Comparable> implements Iterable<T>, Li
     }
 
     public T delete(Integer pos) {
-        synchronized (this) {
-            Integer index = 0;
-            Node<T> start = first;
+        Integer index = 0;
+        Node<T> start = first;
+        if (start != null) {
             start.lock.lock();
-            while (start != null && !index.equals(pos)) {
-                start.lock.unlock();
-                start = start.getRight();
-                if (start != null) {
-                    start.lock.lock();
-                }
-                index++;
-            }
-            if (!index.equals(pos) || start == null) {
-                throw new IndexOutOfBoundsException();
-            }
-            Node<T> left = start.getLeft();
-            Node<T> right = start.getRight();
-
-            if (start == first) {
-                first = right;
-            } else {
-                left.setRight(right);
-                right.setLeft(left);
-            }
-            return start.getValue();
         }
+        while (start != null && !index.equals(pos)) {
+            start.lock.unlock();
+            start = start.getRight();
+            if (start != null) {
+                start.lock.lock();
+            }
+            index++;
+        }
+        if (!index.equals(pos) || start == null) {
+            throw new IndexOutOfBoundsException();
+        }
+        Node<T> left = start.getLeft();
+        Node<T> right = start.getRight();
+
+        if (start == first) {
+            first = right;
+        } else {
+            left.lock.lock();
+            left.setRight(right);
+            if (right != null) {
+                right.lock.lock();
+                right.setLeft(left);
+                right.lock.unlock();
+            }
+            left.lock.unlock();
+        }
+        start.lock.unlock();
+        return start.getValue();
     }
 
 

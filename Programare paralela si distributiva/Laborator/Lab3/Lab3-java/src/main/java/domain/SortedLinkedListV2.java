@@ -88,7 +88,9 @@ public class SortedLinkedListV2<T extends Comparable> implements Iterable<T>, Li
                 first = right;
             } else {
                 left.setRight(right);
-                right.setLeft(left);
+                if (right != null) {
+                    right.setLeft(left);
+                }
             }
             return start.getValue();
         }
