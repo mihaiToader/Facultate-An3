@@ -119,7 +119,12 @@ void weirdComplexMatrix(int nrThread, string matr1, string matr2)
 	Matrix<ComplexNumber> b = readCNMatrixFromFile(matr2);
 	Matrix<ComplexNumber> c(a.getLine(), a.getCol());
 	c.setName(a.getName() + "_" + b.getName());
-	function<ComplexNumber(ComplexNumber, ComplexNumber)> func = [](ComplexNumber d1, ComplexNumber d2) {return 1 / (1 / d1 + 1 / d2); };
+	function<ComplexNumber(ComplexNumber, ComplexNumber)> func = [](ComplexNumber n1, ComplexNumber n2) {return ComplexNumber(((n1.getA() + n2.getA())*(n1.getA() * n2.getA() - n1.getB()*n2.getB()) +
+		(n1.getB() + n2.getB())*(n1.getA()*n2.getB() + n2.getA()*n1.getB())) /
+		(pow(n1.getA() + n2.getA(), 2) - pow(n1.getB() + n2.getB(), 2)),
+		((n1.getA() + n2.getA())*(n1.getA()*n2.getB() + n2.getA()*n1.getB())
+			+ (n1.getB() + n2.getB())*(-n1.getA() * n2.getA() + n1.getB()*n2.getB())) /
+			(pow(n1.getA() + n2.getA(), 2) - pow(n1.getB() + n2.getB(), 2)));  };
 	makeThreads<ComplexNumber>(nrThread, a, b, c, func, "Multiply complex matrix");
 	writeToCNMatrix(c);
 }
