@@ -1,0 +1,25 @@
+[2017-11-05T16:05:32.771 - 2017-11-05T16:05:32.786] # Iterate # Thread: 4 # Sec 0 # Millis 15 # Values: 
+[2017-11-05T16:05:32.768 - 2017-11-05T16:05:32.787] # Add # Thread: 2 # Nr operation: 0 # Sec 0 # Millis 19 # Value 2
+[2017-11-05T16:05:32.768 - 2017-11-05T16:05:32.786] # Add # Thread: 1 # Nr operation: 0 # Sec 0 # Millis 18 # Value 7
+[2017-11-05T16:05:32.768 - 2017-11-05T16:05:32.785] # Delete error position not found# Thread: 3 # Nr operation: 0 # Sec 0 # Millis 17 # Value 0
+[2017-11-05T16:05:32.792 - 2017-11-05T16:05:32.792] # Add # Thread: 1 # Nr operation: 1 # Sec 0 # Millis 0 # Value 4
+[2017-11-05T16:05:32.792 - 2017-11-05T16:05:32.792] # Add # Thread: 2 # Nr operation: 1 # Sec 0 # Millis 0 # Value 2
+[2017-11-05T16:05:32.793 - 2017-11-05T16:05:32.793] # Delete # Thread: 3 # Nr operation: 1 # Sec 0 # Millis 0 # Value 2
+[2017-11-05T16:05:32.793 - 2017-11-05T16:05:32.793] # Add # Thread: 2 # Nr operation: 2 # Sec 0 # Millis 0 # Value 8
+[2017-11-05T16:05:32.793 - 2017-11-05T16:05:32.793] # Add # Thread: 1 # Nr operation: 2 # Sec 0 # Millis 0 # Value 4
+[2017-11-05T16:05:32.793 - 2017-11-05T16:05:32.793] # Delete # Thread: 3 # Nr operation: 2 # Sec 0 # Millis 0 # Value 2
+[2017-11-05T16:05:32.793 - 2017-11-05T16:05:32.793] # Add # Thread: 2 # Nr operation: 3 # Sec 0 # Millis 0 # Value 6
+[2017-11-05T16:05:32.793 - 2017-11-05T16:05:32.793] # Add # Thread: 1 # Nr operation: 3 # Sec 0 # Millis 0 # Value 5
+[2017-11-05T16:05:32.793 - 2017-11-05T16:05:32.793] # Delete # Thread: 3 # Nr operation: 3 # Sec 0 # Millis 0 # Value 4
+[2017-11-05T16:05:32.793 - 2017-11-05T16:05:32.794] # Add # Thread: 2 # Nr operation: 4 # Sec 0 # Millis 1 # Value 3
+[2017-11-05T16:05:32.794 - 2017-11-05T16:05:32.794] # Add # Thread: 1 # Nr operation: 4 # Sec 0 # Millis 0 # Value 6
+[2017-11-05T16:05:32.794 - 2017-11-05T16:05:32.794] # Delete # Thread: 3 # Nr operation: 4 # Sec 0 # Millis 0 # Value 3
+[2017-11-05T16:05:32.794 - 2017-11-05T16:05:32.794] # Delete # Thread: 3 # Nr operation: 5 # Sec 0 # Millis 0 # Value 4
+[2017-11-05T16:05:32.794 - 2017-11-05T16:05:32.794] # Delete # Thread: 3 # Nr operation: 6 # Sec 0 # Millis 0 # Value 5
+[2017-11-05T16:05:32.794 - 2017-11-05T16:05:32.794] # Add # Thread: 1 # Nr operation: 5 # Sec 0 # Millis 0 # Value 10
+[2017-11-05T16:05:32.795 - 2017-11-05T16:05:32.795] # Add # Thread: 1 # Nr operation: 6 # Sec 0 # Millis 0 # Value 2
+[2017-11-05T16:05:32.795 - 2017-11-05T16:05:32.795] # Iterate # Thread: 4 # Sec 0 # Millis 0 # Values: 2 6 6 7 8 10 
+[2017-11-05T16:05:32.795 - 2017-11-05T16:05:32.795] # Add # Thread: 1 # Nr operation: 7 # Sec 0 # Millis 0 # Value 10
+[2017-11-05T16:05:32.796 - 2017-11-05T16:05:32.796] # Add # Thread: 1 # Nr operation: 8 # Sec 0 # Millis 0 # Value 9
+[2017-11-05T16:05:32.796 - 2017-11-05T16:05:32.796] # Add # Thread: 1 # Nr operation: 9 # Sec 0 # Millis 0 # Value 4
+[2017-11-05T16:05:32.797 - 2017-11-05T16:05:32.797] # Iterate # Thread: 4 # Sec 0 # Millis 0 # Values: 2 4 6 6 7 8 9 10 10 

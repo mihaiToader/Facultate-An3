@@ -27,6 +27,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BinaryOperator;
 
+import static java.lang.Math.pow;
+
 /**
  * Created by toade on 10/5/2017.
  */
@@ -234,7 +236,7 @@ public class MatrixServiceImpl implements MatrixService {
         GeneralMatrix<ComplexNumber> a = complexMatrixRepository.readMatrixFromFile(nameMatrix1);
         GeneralMatrix<ComplexNumber> b = complexMatrixRepository.readMatrixFromFile(nameMatrix2);
         GeneralMatrix<ComplexNumber> c = new GeneralMatrix<>(a.getNumberOfLines(), a.getNumberOfColumns());
-        BinaryOperator<ComplexNumber> function = (d1, d2) -> d1.multiply(d2);
+        BinaryOperator<ComplexNumber> function = ComplexNumber::multiply;
         createGeneralThreads(nrThreads, a, b, c, function, "Complex matrix product");
         complexMatrixRepository.writeMatrixToFile(c, outFile);
     }
@@ -255,7 +257,12 @@ public class MatrixServiceImpl implements MatrixService {
         GeneralMatrix<ComplexNumber> a = complexMatrixRepository.readMatrixFromFile(nameMatrix1);
         GeneralMatrix<ComplexNumber> b = complexMatrixRepository.readMatrixFromFile(nameMatrix2);
         GeneralMatrix<ComplexNumber> c = new GeneralMatrix<>(a.getNumberOfLines(), a.getNumberOfColumns());
-        BinaryOperator<ComplexNumber> function = (d1, d2) -> d1.weird(d2);
+        BinaryOperator<ComplexNumber> function = (n1, n2) -> new  ComplexNumber(((n1.getA() + n2.getA())*(n1.getA() * n2.getA() - n1.getB()*n2.getB()) +
+                        (n1.getB() + n2.getB())*(n1.getA()*n2.getB() + n2.getA()*n1.getB())) /
+                        (pow(n1.getA() + n2.getA(), 2) - pow(n1.getB() + n2.getB(), 2)),
+                ((n1.getA() + n2.getA())*(n1.getA()*n2.getB() + n2.getA()*n1.getB())
+                        + (n1.getB() + n2.getB())*(-n1.getA() * n2.getA() + n1.getB()*n2.getB())) /
+                        (pow(n1.getA() + n2.getA(), 2) - pow(n1.getB() + n2.getB(), 2)));
         createGeneralThreads(nrThreads, a, b, c, function, "Complex matrix weird operation");
         complexMatrixRepository.writeMatrixToFile(c, outFile);
     }
