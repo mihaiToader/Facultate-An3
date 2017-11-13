@@ -1,6 +1,8 @@
-package domain;
+package ppd.domain;
 
 import java.util.Iterator;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by toade on 11/4/2017.
@@ -9,6 +11,7 @@ import java.util.Iterator;
 //sincronizare la nivel de nod sau portiune din lista
 public class SortedLinkedListV1<T extends Comparable> implements Iterable<T>, LinkedList<T> {
     private Node<T> first;
+    private Lock iteratorLock = new ReentrantLock();
 
     public SortedLinkedListV1() {
         first = null;
@@ -77,7 +80,6 @@ public class SortedLinkedListV1<T extends Comparable> implements Iterable<T>, Li
                 insertBefore(start, new Node<>(value, null, null));
             }
         }
-
     }
 
     public T delete(Integer pos) {

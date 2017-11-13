@@ -1,4 +1,4 @@
-package domain;
+package ppd.domain;
 
 /**
  * Created by toade on 11/5/2017.

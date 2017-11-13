@@ -1,4 +1,4 @@
-package domain;
+package ppd.domain;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -10,10 +10,10 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ThreadListAdd implements Runnable{
     private LinkedList<Integer> list;
     private Integer nrOperations;
-    private ThreadWriteToFile looger;
+    private WriteToFile looger;
     private Integer nrThread;
 
-    public ThreadListAdd(LinkedList<Integer> list, Integer nrOperations, ThreadWriteToFile looger, Integer nrThread) {
+    public ThreadListAdd(LinkedList<Integer> list, Integer nrOperations, WriteToFile looger, Integer nrThread) {
         this.list = list;
         this.nrOperations = nrOperations;
         this.looger = looger;
@@ -29,7 +29,7 @@ public class ThreadListAdd implements Runnable{
             LocalDateTime startTime = LocalDateTime.now();
             list.add(value);
             LocalDateTime endTime = LocalDateTime.now();
-            looger.add(String.format("[%s - %s] # Add # Thread: %d # Nr operation: %d # Sec %d # Millis %d # Value %d\n",
+            looger.add(String.format("[%s - %s] # Add # Thread: %d # Nr operation: %d # Sec %d # Millis %d # Value %d%n",
                     startTime, endTime, nrThread, i,
                     ChronoUnit.SECONDS.between(startTime, endTime),
                     ChronoUnit.MILLIS.between(startTime, endTime), value));

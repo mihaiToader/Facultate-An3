@@ -1,4 +1,4 @@
-package domain;
+package ppd.domain;
 
 import java.util.Iterator;
 
@@ -20,18 +20,6 @@ public class SortedLinkedListV2<T extends Comparable> implements Iterable<T>, Li
 
     public void setFirst(Node<T> first) {
         this.first = first;
-    }
-
-    private void insertAfter(Node<T> start, Node<T> theNewNode) {
-        Node<T> rightNode = null;
-        if (start.getRight() != null) {
-            rightNode = start.getRight();
-            rightNode.setLeft(theNewNode);
-        }
-
-        start.setRight(theNewNode);
-        theNewNode.setLeft(start);
-        theNewNode.setRight(rightNode);
     }
 
     private void insertBefore(Node<T> start, Node<T> theNewNode) {

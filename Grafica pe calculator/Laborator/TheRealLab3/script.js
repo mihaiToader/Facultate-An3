@@ -12,7 +12,7 @@ window.onload = () => {
         // Create the scene space
         let scene = new BABYLON.Scene(engine);
 
-        scene.clearColor = new BABYLON.Color3(0, 0, 0);
+        //scene.clearColor = new BABYLON.Color3(0, 0, 0);
 
         // Parameters : name, position, scene
         let camera = new BABYLON.UniversalCamera("UniversalCamera", new BABYLON.Vector3(1000, 0, 0), scene);

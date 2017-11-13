@@ -1,4 +1,4 @@
-package domain;
+package ppd.domain;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

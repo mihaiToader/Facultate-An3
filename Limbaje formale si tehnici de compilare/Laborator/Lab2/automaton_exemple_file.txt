@@ -1,0 +1,6 @@
+input_non_terminal
+output_non_terminals
+from_non_terminal to_non_terminal terminal
+.
+.
+.
