@@ -19,4 +19,4 @@ HI MyFirstProgram!
         out<-c;
     BYE BODY
     a
-BYE MyFirstProgram!
+BYE 123MyFirstProgram!

@@ -110,9 +110,9 @@ Forma interna a programului:
 |    0     |   2    |
 |    28    |   -    |
 |    9     |   -    |
-|    0     |   1    |
 |    12    |   -    |
 +----------+--------+
 
 
 ERRORS:
+-> 123MyFirstProgram appear on lines [22]
