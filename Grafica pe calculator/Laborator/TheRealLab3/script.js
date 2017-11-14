@@ -27,7 +27,7 @@ window.onload = () => {
         light.position = new BABYLON.Vector3(0, 0, 0);
 
         let sunMaterial = new BABYLON.StandardMaterial("sunMaterial", scene);
-        sunMaterial.diffuseTexture = new BABYLON.Texture(sunTextureBinary, scene);
+        sunMaterial.diffuseTexture = new BABYLON.Texture("https://i.imgur.com/IkhvLCU.jpg", scene);
 
         let sun = BABYLON.Mesh.CreateSphere("sphere", 10, 50, scene);
         sun.position = light.position;
@@ -38,7 +38,7 @@ window.onload = () => {
         let mercur = BABYLON.Mesh.CreateSphere("sphere", 10, 5, scene);
 
         let mercurMaterial = new BABYLON.StandardMaterial("mercurMaterial", scene);
-        mercurMaterial.diffuseTexture = new BABYLON.Texture("texture/planet-mercury.png", scene);
+        mercurMaterial.diffuseTexture = new BABYLON.Texture("https://i.imgur.com/ZgU0gBA.png", scene);
         mercur.material = mercurMaterial;
 
 
@@ -49,6 +49,26 @@ window.onload = () => {
 
 
         let moon = BABYLON.Mesh.CreateSphere("sphere", 10, 3, scene);
+
+        let earthMaterial = new BABYLON.StandardMaterial("earthMaterial", scene);
+        earthMaterial.diffuseTexture = new BABYLON.Texture("https://i.imgur.com/AdtLSqp.png", scene);
+        earth.material = earthMaterial;
+
+        let venusMaterial = new BABYLON.StandardMaterial("venusMaterial", scene);
+        venusMaterial.diffuseTexture = new BABYLON.Texture("https://i.imgur.com/KC86Mxt.jpg", scene);
+        venus.material = venusMaterial;
+
+        let marsMaterial = new BABYLON.StandardMaterial("marsMaterial", scene);
+        marsMaterial.diffuseTexture = new BABYLON.Texture("https://i.imgur.com/gNGTrJB.png", scene);
+        mars.material = marsMaterial;
+
+        let moonMaterial = new BABYLON.StandardMaterial("moonMaterial", scene);
+        moonMaterial.diffuseTexture = new BABYLON.Texture("https://i.imgur.com/qs49y9O.jpg", scene);
+        moon.material = moonMaterial;
+
+        let jupiterMaterial = new BABYLON.StandardMaterial("jupiterMaterial", scene);
+        jupiterMaterial.diffuseTexture = new BABYLON.Texture("https://i.imgur.com/cJiZREq.jpg", scene);
+        jupiter.material = jupiterMaterial;
 
         // Animations
         let alphaSpeedMercur = 0;
