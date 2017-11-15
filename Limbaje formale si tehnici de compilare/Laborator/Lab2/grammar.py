@@ -1,8 +1,10 @@
 class Grammar:
     def __init__(self):
         self.grammar = {}
+        self.start = None
 
     def get_from_string(self, content):
+        self.grammar = {}
         try:
             content = content.split("\n")
             for line in content:
@@ -11,6 +13,8 @@ class Grammar:
                     self.grammar[expression[0].strip()] += list(map(lambda x: x.strip(), expression[1].split("|")))
                 else:
                     self.grammar[expression[0].strip()] = list(map(lambda x: x.strip(), expression[1].split("|")))
+                    if self.start is not None:
+                        self.start = expression[0].strip()
         except Exception:
             self.grammar = {}
             print("Incorrect grammar")
@@ -45,18 +49,25 @@ class Grammar:
         for non_terminal in self.set_of_non_terminals():
             for production_element in self.production_of_non_terminal_symbol(non_terminal):
                 if len(production_element) > 2:
+                    print('Contains more than 2 elements in production: ' + production_element)
                     return 0
                 if len(production_element) == 2:
                     first = list(production_element)[0]
                     second = list(production_element)[1]
-                    if first in self.grammar and second in self.grammar:
+                    if first in self.set_of_non_terminals() and second in self.set_of_non_terminals():
+                        print('Production contain 2 non-terminals: ' + production_element)
                         return 0
                     if first not in self.grammar and second not in self.grammar:
+                        print('Production contain 2 terminals: ' + production_element)
                         return 0
                     if first in self.grammar:
                         left += 1
                     if second in self.grammar:
                         right += 1
+                else:
+                    if production_element in self.set_of_non_terminals():
+                        print('Production contain only one non-terminal: ' + production_element)
+                        return 0
         if right == 0:
             return 2
         if left == 0:
@@ -71,3 +82,9 @@ class Grammar:
             return "Right regular grammar"
         else:
             return "The grammar isn't regular"
+
+    def add_production(self, non_terminal, production):
+        if non_terminal in self.grammar:
+            self.grammar[non_terminal].append(production)
+        else:
+            self.grammar[non_terminal] = [production]

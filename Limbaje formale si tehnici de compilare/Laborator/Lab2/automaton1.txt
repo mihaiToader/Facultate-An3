@@ -1,7 +1,9 @@
-A
-A C D
-A B b
-B D c
-A C a
-C D c
-C D e
+S
+B
+S A 0
+A A 1
+A B 0
+B B 1
+B C 1
+C C 1
+C B 0
