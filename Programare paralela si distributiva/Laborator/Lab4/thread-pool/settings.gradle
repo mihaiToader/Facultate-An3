@@ -1,0 +1,5 @@
+rootProject.name = 'thread-pool'
+include 'client'
+include 'server'
+include 'domain'
+

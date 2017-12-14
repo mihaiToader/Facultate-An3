@@ -1,0 +1,724 @@
+Thu Dec 14 12:39:30 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:30 EET 2017 |===| Client mihai wants to buy product faina with code 1114 in quantity 3
+Thu Dec 14 12:39:30 EET 2017 |===| Client mihai bought product faina with code 1114 and spent 106.80000000000001
+Thu Dec 14 12:39:31 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:31 EET 2017 |===| Client mihai wants to buy product cooler with code 1116 in quantity 1
+Thu Dec 14 12:39:31 EET 2017 |===| Client mihai bought product cooler with code 1116 and spent 55.6
+Thu Dec 14 12:39:31 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:31 EET 2017 |===| Client mihai wants to buy product faina with code 1114 in quantity 15
+Thu Dec 14 12:39:31 EET 2017 |===| Client mihai bought product faina with code 1114 and spent 534.0
+Thu Dec 14 12:39:32 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:32 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 16
+Thu Dec 14 12:39:32 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 249.6
+Thu Dec 14 12:39:32 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:32 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 12
+Thu Dec 14 12:39:32 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 547.2
+Thu Dec 14 12:39:32 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:32 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:39:32 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:39:33 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:33 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 17
+Thu Dec 14 12:39:33 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 95.19999999999999
+Thu Dec 14 12:39:33 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:33 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 10
+Thu Dec 14 12:39:33 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 56.0
+Thu Dec 14 12:39:33 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:33 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 10
+Thu Dec 14 12:39:33 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 56.0
+Thu Dec 14 12:39:33 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:33 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 3
+Thu Dec 14 12:39:33 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 136.8
+Thu Dec 14 12:39:34 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:34 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 0
+Thu Dec 14 12:39:34 EET 2017 |===| Client mihai can't buy product ghete with code 1112 cause it doesn't exists anymore
+Thu Dec 14 12:39:34 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:34 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 15
+Thu Dec 14 12:39:34 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 684.0
+Thu Dec 14 12:39:34 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:34 EET 2017 |===| Client mihai wants to buy product cooler with code 1116 in quantity 17
+Thu Dec 14 12:39:34 EET 2017 |===| Client mihai bought product cooler with code 1116 and spent 945.2
+Thu Dec 14 12:39:34 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:34 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 9
+Thu Dec 14 12:39:34 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 140.4
+Thu Dec 14 12:39:35 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:35 EET 2017 |===| Client grecu wants to buy product cooler with code 1116 in quantity 11
+Thu Dec 14 12:39:35 EET 2017 |===| Client grecu bought product cooler with code 1116 and spent 611.6
+Thu Dec 14 12:39:35 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:35 EET 2017 |===| Client mihai wants to buy product laptop with code 1117 in quantity 7
+Thu Dec 14 12:39:35 EET 2017 |===| Client mihai bought product laptop with code 1117 and spent 249.20000000000002
+Thu Dec 14 12:39:35 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:35 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 19
+Thu Dec 14 12:39:35 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 106.39999999999999
+Thu Dec 14 12:39:35 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:35 EET 2017 |===| Client grecu wants to buy product cooler with code 1116 in quantity 15
+Thu Dec 14 12:39:35 EET 2017 |===| Client grecu bought product cooler with code 1116 and spent 834.0
+Thu Dec 14 12:39:35 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:35 EET 2017 |===| Client mihai wants to buy product masina with code 1113 in quantity 2
+Thu Dec 14 12:39:35 EET 2017 |===| Client mihai bought product masina with code 1113 and spent 46251.2
+Thu Dec 14 12:39:35 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:35 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 8
+Thu Dec 14 12:39:36 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 364.8
+Thu Dec 14 12:39:36 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:36 EET 2017 |===| Client grecu wants to buy product faina with code 1114 in quantity 19
+Thu Dec 14 12:39:36 EET 2017 |===| Client grecu bought product faina with code 1114 and spent 676.4
+Thu Dec 14 12:39:36 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:36 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 1
+Thu Dec 14 12:39:36 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 15.6
+Thu Dec 14 12:39:36 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:36 EET 2017 |===| Client claudia wants to buy product faina with code 1114 in quantity 18
+Thu Dec 14 12:39:36 EET 2017 |===| Client claudia bought product faina with code 1114 and spent 640.8000000000001
+Thu Dec 14 12:39:36 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:36 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 14
+Thu Dec 14 12:39:36 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 218.4
+Thu Dec 14 12:39:37 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:37 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 0
+Thu Dec 14 12:39:37 EET 2017 |===| Client mihai can't buy product roata with code 1115 cause it doesn't exists anymore
+Thu Dec 14 12:39:37 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:37 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 5
+Thu Dec 14 12:39:37 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 228.0
+Thu Dec 14 12:39:37 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:37 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 16
+Thu Dec 14 12:39:37 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 249.6
+Thu Dec 14 12:39:37 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:37 EET 2017 |===| Client mihai wants to buy product laptop with code 1117 in quantity 2
+Thu Dec 14 12:39:37 EET 2017 |===| Client mihai bought product laptop with code 1117 and spent 71.2
+Thu Dec 14 12:39:37 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:37 EET 2017 |===| Client claudia wants to buy product faina with code 1114 in quantity 15
+Thu Dec 14 12:39:37 EET 2017 |===| Client claudia bought product faina with code 1114 and spent 534.0
+Thu Dec 14 12:39:37 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:37 EET 2017 |===| Client grecu wants to buy product masina with code 1113 in quantity 6
+Thu Dec 14 12:39:37 EET 2017 |===| Client grecu bought product masina with code 1113 and spent 138753.59999999998
+Thu Dec 14 12:39:38 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:38 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 4
+Thu Dec 14 12:39:38 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 62.4
+Thu Dec 14 12:39:38 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:38 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 12
+Thu Dec 14 12:39:38 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 67.19999999999999
+Thu Dec 14 12:39:38 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:38 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 4
+Thu Dec 14 12:39:38 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 22.4
+Thu Dec 14 12:39:38 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:38 EET 2017 |===| Client mihai wants to buy product cooler with code 1116 in quantity 17
+Thu Dec 14 12:39:38 EET 2017 |===| Client mihai bought product cooler with code 1116 and spent 945.2
+Thu Dec 14 12:39:38 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:38 EET 2017 |===| Client claudia wants to buy product faina with code 1114 in quantity 18
+Thu Dec 14 12:39:38 EET 2017 |===| Client claudia bought product faina with code 1114 and spent 640.8000000000001
+Thu Dec 14 12:39:38 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:38 EET 2017 |===| Client grecu wants to buy product laptop with code 1117 in quantity 16
+Thu Dec 14 12:39:38 EET 2017 |===| Client grecu bought product laptop with code 1117 and spent 569.6
+Thu Dec 14 12:39:39 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:39 EET 2017 |===| Client mihai wants to buy product faina with code 1114 in quantity 4
+Thu Dec 14 12:39:39 EET 2017 |===| Client mihai bought product faina with code 1114 and spent 142.4
+Thu Dec 14 12:39:39 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:39 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 6
+Thu Dec 14 12:39:39 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 33.599999999999994
+Thu Dec 14 12:39:39 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:39 EET 2017 |===| Client grecu wants to buy product laptop with code 1117 in quantity 9
+Thu Dec 14 12:39:39 EET 2017 |===| Client grecu bought product laptop with code 1117 and spent 320.40000000000003
+Thu Dec 14 12:39:39 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:39 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 13
+Thu Dec 14 12:39:39 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 592.8000000000001
+Thu Dec 14 12:39:39 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:39 EET 2017 |===| Client claudia wants to buy product cooler with code 1116 in quantity 7
+Thu Dec 14 12:39:39 EET 2017 |===| Client claudia bought product cooler with code 1116 and spent 389.2
+Thu Dec 14 12:39:39 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:39 EET 2017 |===| Client grecu wants to buy product cooler with code 1116 in quantity 3
+Thu Dec 14 12:39:39 EET 2017 |===| Client grecu bought product cooler with code 1116 and spent 166.8
+Thu Dec 14 12:39:40 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:40 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 17
+Thu Dec 14 12:39:40 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 775.2
+Thu Dec 14 12:39:40 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:40 EET 2017 |===| Client claudia wants to buy product masina with code 1113 in quantity 18
+Thu Dec 14 12:39:40 EET 2017 |===| Client claudia bought product masina with code 1113 and spent 416260.8
+Thu Dec 14 12:39:40 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:40 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 18
+Thu Dec 14 12:39:40 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 280.8
+Thu Dec 14 12:39:40 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:40 EET 2017 |===| Client mihai wants to buy product laptop with code 1117 in quantity 19
+Thu Dec 14 12:39:40 EET 2017 |===| Client mihai bought product laptop with code 1117 and spent 676.4
+Thu Dec 14 12:39:40 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:40 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 19
+Thu Dec 14 12:39:40 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 866.4
+Thu Dec 14 12:39:40 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:40 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 0
+Thu Dec 14 12:39:40 EET 2017 |===| Client grecu can't buy product ciocolata with code 1111 cause it doesn't exists anymore
+Thu Dec 14 12:39:41 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:41 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 10
+Thu Dec 14 12:39:41 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 56.0
+Thu Dec 14 12:39:41 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:41 EET 2017 |===| Client claudia wants to buy product laptop with code 1117 in quantity 0
+Thu Dec 14 12:39:41 EET 2017 |===| Client claudia can't buy product laptop with code 1117 cause it doesn't exists anymore
+Thu Dec 14 12:39:41 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:41 EET 2017 |===| Client grecu wants to buy product roata with code 1115 in quantity 7
+Thu Dec 14 12:39:41 EET 2017 |===| Client grecu bought product roata with code 1115 and spent 319.2
+Thu Dec 14 12:39:41 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:41 EET 2017 |===| Client mihai wants to buy product laptop with code 1117 in quantity 7
+Thu Dec 14 12:39:41 EET 2017 |===| Client mihai bought product laptop with code 1117 and spent 249.20000000000002
+Thu Dec 14 12:39:41 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:41 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 13
+Thu Dec 14 12:39:41 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 72.8
+Thu Dec 14 12:39:41 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:41 EET 2017 |===| Client grecu wants to buy product faina with code 1114 in quantity 8
+Thu Dec 14 12:39:41 EET 2017 |===| Client grecu bought product faina with code 1114 and spent 284.8
+Thu Dec 14 12:39:42 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:42 EET 2017 |===| Client mihai wants to buy product cooler with code 1116 in quantity 13
+Thu Dec 14 12:39:42 EET 2017 |===| Client mihai bought product cooler with code 1116 and spent 722.8000000000001
+Thu Dec 14 12:39:42 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:42 EET 2017 |===| Client claudia wants to buy product laptop with code 1117 in quantity 10
+Thu Dec 14 12:39:42 EET 2017 |===| Client claudia bought product laptop with code 1117 and spent 356.0
+Thu Dec 14 12:39:42 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:42 EET 2017 |===| Client grecu wants to buy product cooler with code 1116 in quantity 14
+Thu Dec 14 12:39:42 EET 2017 |===| Client grecu bought product cooler with code 1116 and spent 778.4
+Thu Dec 14 12:39:42 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:42 EET 2017 |===| Client mihai wants to buy product cooler with code 1116 in quantity 2
+Thu Dec 14 12:39:42 EET 2017 |===| Client mihai bought product cooler with code 1116 and spent 111.2
+Thu Dec 14 12:39:42 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:42 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 12
+Thu Dec 14 12:39:42 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 547.2
+Thu Dec 14 12:39:42 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:42 EET 2017 |===| Client grecu wants to buy product masina with code 1113 in quantity 14
+Thu Dec 14 12:39:42 EET 2017 |===| Client grecu bought product masina with code 1113 and spent 323758.39999999997
+Thu Dec 14 12:39:43 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:43 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 1
+Thu Dec 14 12:39:43 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 15.6
+Thu Dec 14 12:39:43 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:43 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 12
+Thu Dec 14 12:39:43 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 187.2
+Thu Dec 14 12:39:43 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:43 EET 2017 |===| Client grecu wants to buy product masina with code 1113 in quantity 10
+Thu Dec 14 12:39:43 EET 2017 |===| Client grecu bought product masina with code 1113 and spent 231256.0
+Thu Dec 14 12:39:43 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:43 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 3
+Thu Dec 14 12:39:43 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 136.8
+Thu Dec 14 12:39:43 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:43 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 9
+Thu Dec 14 12:39:43 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 410.40000000000003
+Thu Dec 14 12:39:43 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:43 EET 2017 |===| Client grecu wants to buy product laptop with code 1117 in quantity 16
+Thu Dec 14 12:39:43 EET 2017 |===| Client grecu bought product laptop with code 1117 and spent 569.6
+Thu Dec 14 12:39:44 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:44 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 9
+Thu Dec 14 12:39:44 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 50.4
+Thu Dec 14 12:39:44 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:44 EET 2017 |===| Client claudia wants to buy product masina with code 1113 in quantity 8
+Thu Dec 14 12:39:44 EET 2017 |===| Client claudia bought product masina with code 1113 and spent 185004.8
+Thu Dec 14 12:39:44 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:44 EET 2017 |===| Client grecu wants to buy product masina with code 1113 in quantity 3
+Thu Dec 14 12:39:44 EET 2017 |===| Client grecu bought product masina with code 1113 and spent 69376.79999999999
+Thu Dec 14 12:39:44 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:44 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 14
+Thu Dec 14 12:39:44 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 78.39999999999999
+Thu Dec 14 12:39:44 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:44 EET 2017 |===| Client claudia wants to buy product masina with code 1113 in quantity 11
+Thu Dec 14 12:39:44 EET 2017 |===| Client claudia bought product masina with code 1113 and spent 254381.59999999998
+Thu Dec 14 12:39:44 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:44 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 11
+Thu Dec 14 12:39:44 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 61.599999999999994
+Thu Dec 14 12:39:45 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:45 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 1
+Thu Dec 14 12:39:45 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 5.6
+Thu Dec 14 12:39:45 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:45 EET 2017 |===| Client claudia wants to buy product laptop with code 1117 in quantity 10
+Thu Dec 14 12:39:45 EET 2017 |===| Client claudia bought product laptop with code 1117 and spent 356.0
+Thu Dec 14 12:39:45 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:45 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 18
+Thu Dec 14 12:39:45 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 100.8
+Thu Dec 14 12:39:45 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:45 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 8
+Thu Dec 14 12:39:45 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 364.8
+Thu Dec 14 12:39:45 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:45 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 3
+Thu Dec 14 12:39:45 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 16.799999999999997
+Thu Dec 14 12:39:45 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:45 EET 2017 |===| Client grecu wants to buy product laptop with code 1117 in quantity 14
+Thu Dec 14 12:39:45 EET 2017 |===| Client grecu bought product laptop with code 1117 and spent 498.40000000000003
+Thu Dec 14 12:39:46 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:46 EET 2017 |===| Client mihai wants to buy product laptop with code 1117 in quantity 18
+Thu Dec 14 12:39:46 EET 2017 |===| Client mihai bought product laptop with code 1117 and spent 640.8000000000001
+Thu Dec 14 12:39:46 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:46 EET 2017 |===| Client claudia wants to buy product laptop with code 1117 in quantity 7
+Thu Dec 14 12:39:46 EET 2017 |===| Client claudia bought product laptop with code 1117 and spent 249.20000000000002
+Thu Dec 14 12:39:46 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:46 EET 2017 |===| Client grecu wants to buy product laptop with code 1117 in quantity 5
+Thu Dec 14 12:39:46 EET 2017 |===| Client grecu bought product laptop with code 1117 and spent 178.0
+Thu Dec 14 12:39:46 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:46 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 4
+Thu Dec 14 12:39:46 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 182.4
+Thu Dec 14 12:39:46 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:46 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 17
+Thu Dec 14 12:39:46 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 265.2
+Thu Dec 14 12:39:46 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:46 EET 2017 |===| Client grecu wants to buy product roata with code 1115 in quantity 9
+Thu Dec 14 12:39:46 EET 2017 |===| Client grecu bought product roata with code 1115 and spent 410.40000000000003
+Thu Dec 14 12:39:47 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:47 EET 2017 |===| Client mihai wants to buy product masina with code 1113 in quantity 14
+Thu Dec 14 12:39:47 EET 2017 |===| Client mihai bought product masina with code 1113 and spent 323758.39999999997
+Thu Dec 14 12:39:47 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:47 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 0
+Thu Dec 14 12:39:47 EET 2017 |===| Client claudia can't buy product roata with code 1115 cause it doesn't exists anymore
+Thu Dec 14 12:39:47 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:47 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 12
+Thu Dec 14 12:39:47 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 67.19999999999999
+Thu Dec 14 12:39:47 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:47 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 19
+Thu Dec 14 12:39:47 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 106.39999999999999
+Thu Dec 14 12:39:47 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:47 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 4
+Thu Dec 14 12:39:47 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 62.4
+Thu Dec 14 12:39:47 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:47 EET 2017 |===| Client grecu wants to buy product masina with code 1113 in quantity 14
+Thu Dec 14 12:39:47 EET 2017 |===| Client grecu bought product masina with code 1113 and spent 323758.39999999997
+Thu Dec 14 12:39:48 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:48 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 14
+Thu Dec 14 12:39:48 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 638.4
+Thu Dec 14 12:39:48 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:48 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 5
+Thu Dec 14 12:39:48 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 78.0
+Thu Dec 14 12:39:48 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:48 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 19
+Thu Dec 14 12:39:48 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 106.39999999999999
+Thu Dec 14 12:39:48 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:48 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 6
+Thu Dec 14 12:39:48 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 33.599999999999994
+Thu Dec 14 12:39:48 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:48 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 3
+Thu Dec 14 12:39:48 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 46.8
+Thu Dec 14 12:39:48 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:48 EET 2017 |===| Client grecu wants to buy product roata with code 1115 in quantity 16
+Thu Dec 14 12:39:48 EET 2017 |===| Client grecu bought product roata with code 1115 and spent 729.6
+Thu Dec 14 12:39:49 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:49 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 1
+Thu Dec 14 12:39:49 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 15.6
+Thu Dec 14 12:39:49 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:49 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 13
+Thu Dec 14 12:39:49 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 72.8
+Thu Dec 14 12:39:49 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:49 EET 2017 |===| Client grecu wants to buy product laptop with code 1117 in quantity 13
+Thu Dec 14 12:39:49 EET 2017 |===| Client grecu bought product laptop with code 1117 and spent 462.8
+Thu Dec 14 12:39:49 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:49 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 16
+Thu Dec 14 12:39:49 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 89.6
+Thu Dec 14 12:39:49 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:49 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 8
+Thu Dec 14 12:39:49 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 364.8
+Thu Dec 14 12:39:49 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:49 EET 2017 |===| Client grecu wants to buy product laptop with code 1117 in quantity 15
+Thu Dec 14 12:39:49 EET 2017 |===| Client grecu bought product laptop with code 1117 and spent 534.0
+Thu Dec 14 12:39:50 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:50 EET 2017 |===| Client mihai wants to buy product laptop with code 1117 in quantity 0
+Thu Dec 14 12:39:50 EET 2017 |===| Client mihai can't buy product laptop with code 1117 cause it doesn't exists anymore
+Thu Dec 14 12:39:50 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:50 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 16
+Thu Dec 14 12:39:50 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 729.6
+Thu Dec 14 12:39:50 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:50 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 1
+Thu Dec 14 12:39:50 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 5.6
+Thu Dec 14 12:39:50 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:50 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 6
+Thu Dec 14 12:39:50 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 273.6
+Thu Dec 14 12:39:50 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:50 EET 2017 |===| Client claudia wants to buy product laptop with code 1117 in quantity 3
+Thu Dec 14 12:39:50 EET 2017 |===| Client claudia bought product laptop with code 1117 and spent 106.80000000000001
+Thu Dec 14 12:39:50 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:50 EET 2017 |===| Client grecu wants to buy product laptop with code 1117 in quantity 12
+Thu Dec 14 12:39:50 EET 2017 |===| Client grecu bought product laptop with code 1117 and spent 427.20000000000005
+Thu Dec 14 12:39:51 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:51 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 11
+Thu Dec 14 12:39:51 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 501.6
+Thu Dec 14 12:39:51 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:51 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 5
+Thu Dec 14 12:39:51 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 228.0
+Thu Dec 14 12:39:51 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:51 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 9
+Thu Dec 14 12:39:51 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 140.4
+Thu Dec 14 12:39:51 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:51 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 9
+Thu Dec 14 12:39:51 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 140.4
+Thu Dec 14 12:39:51 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:51 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 4
+Thu Dec 14 12:39:51 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 182.4
+Thu Dec 14 12:39:51 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:51 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 13
+Thu Dec 14 12:39:51 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 72.8
+Thu Dec 14 12:39:52 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:52 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 10
+Thu Dec 14 12:39:52 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 56.0
+Thu Dec 14 12:39:52 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:52 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 16
+Thu Dec 14 12:39:52 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 89.6
+Thu Dec 14 12:39:52 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:52 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:39:52 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:39:52 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:52 EET 2017 |===| Client mihai wants to buy product laptop with code 1117 in quantity 10
+Thu Dec 14 12:39:52 EET 2017 |===| Client mihai bought product laptop with code 1117 and spent 356.0
+Thu Dec 14 12:39:52 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:52 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 18
+Thu Dec 14 12:39:52 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 820.8000000000001
+Thu Dec 14 12:39:52 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:52 EET 2017 |===| Client grecu wants to buy product roata with code 1115 in quantity 19
+Thu Dec 14 12:39:52 EET 2017 |===| Client grecu bought product roata with code 1115 and spent 866.4
+Thu Dec 14 12:39:53 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:53 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 4
+Thu Dec 14 12:39:53 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 22.4
+Thu Dec 14 12:39:53 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:53 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 15
+Thu Dec 14 12:39:53 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 84.0
+Thu Dec 14 12:39:53 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:53 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 18
+Thu Dec 14 12:39:53 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 100.8
+Thu Dec 14 12:39:53 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:53 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 19
+Thu Dec 14 12:39:53 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 106.39999999999999
+Thu Dec 14 12:39:53 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:53 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 4
+Thu Dec 14 12:39:53 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 22.4
+Thu Dec 14 12:39:53 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:53 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 17
+Thu Dec 14 12:39:53 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 265.2
+Thu Dec 14 12:39:54 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:54 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 18
+Thu Dec 14 12:39:54 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:54 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 280.8
+Thu Dec 14 12:39:54 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 2
+Thu Dec 14 12:39:54 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 91.2
+Thu Dec 14 12:39:54 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:54 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 7
+Thu Dec 14 12:39:54 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 39.199999999999996
+Thu Dec 14 12:39:54 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:54 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 2
+Thu Dec 14 12:39:54 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 11.2
+Thu Dec 14 12:39:54 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:54 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 12
+Thu Dec 14 12:39:54 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 187.2
+Thu Dec 14 12:39:54 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:54 EET 2017 |===| Client grecu wants to buy product roata with code 1115 in quantity 14
+Thu Dec 14 12:39:54 EET 2017 |===| Client grecu bought product roata with code 1115 and spent 638.4
+Thu Dec 14 12:39:55 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:55 EET 2017 |===| Client mihai wants to buy product laptop with code 1117 in quantity 1
+Thu Dec 14 12:39:55 EET 2017 |===| Client mihai bought product laptop with code 1117 and spent 35.6
+Thu Dec 14 12:39:55 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:55 EET 2017 |===| Client claudia wants to buy product ciocolata with code 1111 in quantity 6
+Thu Dec 14 12:39:55 EET 2017 |===| Client claudia bought product ciocolata with code 1111 and spent 33.599999999999994
+Thu Dec 14 12:39:55 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:55 EET 2017 |===| Client grecu wants to buy product ciocolata with code 1111 in quantity 8
+Thu Dec 14 12:39:55 EET 2017 |===| Client grecu bought product ciocolata with code 1111 and spent 44.8
+Thu Dec 14 12:39:55 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:55 EET 2017 |===| Client mihai wants to buy product ciocolata with code 1111 in quantity 1
+Thu Dec 14 12:39:55 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:55 EET 2017 |===| Client mihai bought product ciocolata with code 1111 and spent 5.6
+Thu Dec 14 12:39:55 EET 2017 |===| Client claudia wants to buy product roata with code 1115 in quantity 3
+Thu Dec 14 12:39:55 EET 2017 |===| Client claudia bought product roata with code 1115 and spent 136.8
+Thu Dec 14 12:39:55 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:55 EET 2017 |===| Client grecu wants to buy product roata with code 1115 in quantity 5
+Thu Dec 14 12:39:55 EET 2017 |===| Client grecu bought product roata with code 1115 and spent 228.0
+Thu Dec 14 12:39:56 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:56 EET 2017 |===| Client mihai wants to buy product roata with code 1115 in quantity 1
+Thu Dec 14 12:39:56 EET 2017 |===| Client mihai bought product roata with code 1115 and spent 45.6
+Thu Dec 14 12:39:56 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:56 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:39:56 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:39:56 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:56 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 12
+Thu Dec 14 12:39:56 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 187.2
+Thu Dec 14 12:39:56 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:56 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:39:56 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:39:56 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:56 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 14
+Thu Dec 14 12:39:56 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 218.4
+Thu Dec 14 12:39:56 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:56 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 0
+Thu Dec 14 12:39:56 EET 2017 |===| Client grecu can't buy product ghete with code 1112 cause it doesn't exists anymore
+Thu Dec 14 12:39:57 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:57 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 6
+Thu Dec 14 12:39:57 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:57 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 93.6
+Thu Dec 14 12:39:57 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 6
+Thu Dec 14 12:39:57 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 93.6
+Thu Dec 14 12:39:57 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:57 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 5
+Thu Dec 14 12:39:57 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 78.0
+Thu Dec 14 12:39:57 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:57 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 3
+Thu Dec 14 12:39:57 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:57 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 46.8
+Thu Dec 14 12:39:57 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 8
+Thu Dec 14 12:39:57 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 124.8
+Thu Dec 14 12:39:57 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:57 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:39:57 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:39:58 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:58 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:58 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 16
+Thu Dec 14 12:39:58 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 2
+Thu Dec 14 12:39:58 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 249.6
+Thu Dec 14 12:39:58 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 31.2
+Thu Dec 14 12:39:58 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:58 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 18
+Thu Dec 14 12:39:58 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 280.8
+Thu Dec 14 12:39:58 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:58 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:58 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 5
+Thu Dec 14 12:39:58 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 3
+Thu Dec 14 12:39:58 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 78.0
+Thu Dec 14 12:39:58 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 46.8
+Thu Dec 14 12:39:58 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:58 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 18
+Thu Dec 14 12:39:58 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 280.8
+Thu Dec 14 12:39:59 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:59 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:59 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 8
+Thu Dec 14 12:39:59 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 15
+Thu Dec 14 12:39:59 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 124.8
+Thu Dec 14 12:39:59 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 234.0
+Thu Dec 14 12:39:59 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:59 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 17
+Thu Dec 14 12:39:59 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 265.2
+Thu Dec 14 12:39:59 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:39:59 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:39:59 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:39:59 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 5
+Thu Dec 14 12:39:59 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:39:59 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 78.0
+Thu Dec 14 12:39:59 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:39:59 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 12
+Thu Dec 14 12:39:59 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 187.2
+Thu Dec 14 12:40:00 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:00 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 7
+Thu Dec 14 12:40:00 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:00 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 109.2
+Thu Dec 14 12:40:00 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 6
+Thu Dec 14 12:40:00 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 93.6
+Thu Dec 14 12:40:00 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:00 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 14
+Thu Dec 14 12:40:00 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 218.4
+Thu Dec 14 12:40:00 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:00 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 2
+Thu Dec 14 12:40:00 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:00 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 31.2
+Thu Dec 14 12:40:00 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 7
+Thu Dec 14 12:40:00 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 109.2
+Thu Dec 14 12:40:00 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:00 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 19
+Thu Dec 14 12:40:00 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 296.4
+Thu Dec 14 12:40:01 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:01 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:01 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 18
+Thu Dec 14 12:40:01 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 3
+Thu Dec 14 12:40:01 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 280.8
+Thu Dec 14 12:40:01 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 46.8
+Thu Dec 14 12:40:01 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:01 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:40:01 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:40:01 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:01 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:01 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 17
+Thu Dec 14 12:40:01 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 17
+Thu Dec 14 12:40:01 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 265.2
+Thu Dec 14 12:40:01 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 265.2
+Thu Dec 14 12:40:01 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:01 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 19
+Thu Dec 14 12:40:01 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 296.4
+Thu Dec 14 12:40:02 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:02 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:02 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:40:02 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:40:02 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 7
+Thu Dec 14 12:40:02 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 109.2
+Thu Dec 14 12:40:02 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:02 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 19
+Thu Dec 14 12:40:02 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 296.4
+Thu Dec 14 12:40:02 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:02 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 14
+Thu Dec 14 12:40:02 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:02 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 218.4
+Thu Dec 14 12:40:02 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 10
+Thu Dec 14 12:40:02 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 156.0
+Thu Dec 14 12:40:02 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:02 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 0
+Thu Dec 14 12:40:02 EET 2017 |===| Client grecu can't buy product ghete with code 1112 cause it doesn't exists anymore
+Thu Dec 14 12:40:03 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:03 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 11
+Thu Dec 14 12:40:03 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 171.6
+Thu Dec 14 12:40:03 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:03 EET 2017 |===| Client claudia wants to buy product ghete with code 1112 in quantity 18
+Thu Dec 14 12:40:03 EET 2017 |===| Client claudia bought product ghete with code 1112 and spent 280.8
+Thu Dec 14 12:40:03 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:03 EET 2017 |===| Client grecu wants to buy product ghete with code 1112 in quantity 12
+Thu Dec 14 12:40:03 EET 2017 |===| Client grecu bought product ghete with code 1112 and spent 187.2
+Thu Dec 14 12:40:03 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:03 EET 2017 |===| Client mihai wants to buy product ghete with code 1112 in quantity 1
+Thu Dec 14 12:40:03 EET 2017 |===| Client mihai bought product ghete with code 1112 and spent 15.6
+Thu Dec 14 12:40:03 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:03 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:03 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:03 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:04 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:04 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:04 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:04 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:04 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:04 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:04 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:04 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:04 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:04 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:04 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:04 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:05 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:05 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:05 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:05 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:05 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:05 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:05 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:05 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:05 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:05 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:05 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:05 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:06 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:06 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:06 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:06 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:06 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:06 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:06 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:06 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:06 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:06 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:06 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:06 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:07 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:07 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:07 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:07 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:07 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:07 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:07 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:07 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:07 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:07 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:07 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:07 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:08 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:08 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:08 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:08 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:08 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:08 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:08 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:08 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:08 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:08 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:08 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:08 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:09 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:09 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:09 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:09 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:09 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:09 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:09 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:09 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:09 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:09 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:09 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:09 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:10 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:10 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:10 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:10 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:10 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:10 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:10 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:10 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:10 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:10 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:10 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:10 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:11 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:11 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:11 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:11 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:11 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:11 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:11 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:11 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:11 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:11 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:11 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:11 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:12 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:12 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:12 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:12 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:12 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:12 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:12 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:12 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:12 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:12 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:12 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:12 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:13 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:13 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:13 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:13 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:13 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:13 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:13 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:13 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:13 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:13 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:13 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:13 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:14 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:14 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:14 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:14 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:14 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:14 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:14 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:14 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:14 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:14 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:14 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:14 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:15 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:15 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:15 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:15 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:15 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:15 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:15 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:15 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:15 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:15 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:15 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:15 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:16 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:16 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:16 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:16 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:16 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:16 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:16 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:16 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:16 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:16 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:16 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:16 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:17 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:17 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:17 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:17 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:17 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:17 EET 2017 |===| Client grecu can't buy anything no more products in the shop
+Thu Dec 14 12:40:17 EET 2017 |===| Client claudia try to get all products!
+Thu Dec 14 12:40:17 EET 2017 |===| Client mihai try to get all products!
+Thu Dec 14 12:40:17 EET 2017 |===| Client claudia can't buy anything no more products in the shop
+Thu Dec 14 12:40:17 EET 2017 |===| Client mihai can't buy anything no more products in the shop
+Thu Dec 14 12:40:17 EET 2017 |===| Client grecu try to get all products!
+Thu Dec 14 12:40:17 EET 2017 |===| Client grecu can't buy anything no more products in the shop
